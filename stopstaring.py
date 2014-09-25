@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from gi.repository import Notify
 from time import sleep
 from os.path import expanduser

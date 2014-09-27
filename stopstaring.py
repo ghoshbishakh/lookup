@@ -4,7 +4,6 @@ from gi.repository import Gtk
 from gi.repository import AppIndicator3
 from gi.repository import GLib
 from gi.repository import Notify
-from time import sleep
 import os
 import sys
 from subprocess import call
@@ -40,8 +39,9 @@ myIndicator.set_menu(menu)
 
 Notify.init("lookup")
 Notification = Notify.Notification.new(
-    "Look Up", "Time to give your eyes a break.", "%s/icon.png" % (currentDirectory))
-
+    "Look Up",
+    "Time to give your eyes a break.",
+    "%s/icon.png" % (currentDirectory))
 
 
 GLib.timeout_add_seconds(20, showNotification, None, None)

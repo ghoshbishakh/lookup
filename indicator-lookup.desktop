@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Indicator-Lookup
+Comment=Alerts after 20 minutes to help relax your eyes.
+Exec=/usr/bin/indicator-lookup
+Icon=/etc/indicator-lookup/icon.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;

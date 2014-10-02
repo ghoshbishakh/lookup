@@ -1,4 +1,14 @@
 lookup
 ======
 
-Keep your eyes healthy
+Tiny indicator applet to keep your eyes healthy.
+
+
+Installation for ubuntu and other gnome based distributions
+-----------------------------------------------------------
+
+1. Extract the archive.
+2. Navigate to the folder.
+3. run `sudo bash install.sh'
+4. simply start indicator-lookup .
+

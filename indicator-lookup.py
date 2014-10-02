@@ -41,7 +41,7 @@ Notification = Notify.Notification.new(
     "/etc/indicator-lookup/icon.png")
 
 
-GLib.timeout_add_seconds(20, showNotification, None, None)
+GLib.timeout_add_seconds(1200, showNotification, None, None)
 
 #showNotification()
 
